@@ -1,0 +1,9 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+   margin-bottom: 4em;
+   background-color: #67BEB9;
+}
