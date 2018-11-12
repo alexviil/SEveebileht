@@ -7,3 +7,24 @@ body {
    margin-bottom: 4em;
    background-color: #67BEB9;
 }
+
+header, footer {
+   padding: 1em;
+   background-color: #448F9F;
+   text-align: center;
+}
+
+p {
+   font-family: Bookman;
+   font-size: 120%;
+}
+
+h1 {
+   font-family: Bookman;
+   font-size: 240%;
+}
+
+h2 {
+	font-family: Bookman;
+	font-size: 150%;
+}
