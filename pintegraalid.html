@@ -4,7 +4,7 @@
 	<title>Integraalidest</title>
 	<meta charset="UTF-8">
    <meta name="author" content="Janar Aava ja Alex Viil">
-   <meta name="description" content="Seni otsustamata sisu">
+   <meta name="description" content="Integraalidest üldiselt">
    <link rel="stylesheet" type="text/css" href="css.css">
    <script type="text/javascript" src="javascript.js"></script>
 </head>
@@ -27,9 +27,35 @@
 
 <article class="main-text">
 
-   <h2>Mis teeb integraali päratuks?</h2>
-   <p>todo: jutt päratutest integraalidest</p>
+   <h2 onclick="peida('pinteg')">Mis teeb integraalist päratu integraali?</h2>
+   <div id="pinteg">
+   <p>Integraal on päratu, kui üks või mõlemad tema radadest on lõpmata suured, või kui integraalialune
+   funktsioon ise on mingis punktis määramata, sest lähenedes sellele punktile keskelt on funktsiooni
+   piirväärtus sellel kohal kas lõpmatult suur või väike.</p>
+   <img id="päratudintegraalidpilt" src="päratudintegraalid.png" alt="pilt kahest päratust integraalist">
+   <p class="vaike-p">
+   <a href="https://upload.wikimedia.org/wikipedia/commons/d/d1/Improperintegral2.png">https://upload.wikimedia.org/wikipedia/commons/d/d1/Improperintegral2.png</a><br>
+   <a href="https://upload.wikimedia.org/wikipedia/commons/e/ed/Improperintegral1.png">https://upload.wikimedia.org/wikipedia/commons/e/ed/Improperintegral1.png</a><br>
+   Esimesel integraalil on üks radadest lõpmatu, teisel aga radade vahel leidub lõpmata suur funktsiooni väärtus.</p>
+   </div>
 
+   <h2 onclick="peida('piirv')">Piirväärtuse abil lahendamine</h2>
+   <div id="piirv">
+   <p>Lahendus toetub piirväärtuse kasutusele, kus siis lõpmata raja või radade puhul asendatakse see suvalise
+   reaalarvuga, ning võetakse piirväärtus nii, et see suvaline reaalarv läheneb positiivsele või negatiivsele lõpmatusele.
+   Kui see reaalarv on ülemises rajas, siis talle lähenetakse piirväärtuses vasakult, ning alumise raja reaalarvule paremalt.
+   Ülejäänud käib kõik nii nagu <a href="integraalid.html">Integraalide<a> vahelehes seletatud, tuleb vaid piirväärtus arvesse võtta.</p>
+   </div>
+   
+   <h2 onclick="peida('hajub')"> Hajub või koondub</h2>
+   <div id="hajub">
+   <p>Nagu on võimalik, et piirväärtus tuleb lõpmata suur või üldsegi ei eksisteeri, siis ka osade funktsioonide pindalade puhul võib olla samat moodi.
+   Nii esimest kui ka teist laadi päratute integraalide puhul ütleme siis, et see päratu integraal hajub. Kui aga piirväärtus päratul integraalil
+   eksisteerib lõpliku suuruse näol, siis on selle funktsiooni pindala nendes radades leitav ja ütleme, et see päratu integraal koondub. Nii lihtne asi ongi, 
+   kui just piirväärtused ise raskust ei valmista.</p>
+   </div>
+   
+   </div>
 </article>
 
 
